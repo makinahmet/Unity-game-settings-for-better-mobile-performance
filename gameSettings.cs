@@ -9,6 +9,8 @@ public class gameSettings : MonoBehaviour
     {
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 60;  
+
+        //you can do this when Screen.width > 2000 pxels. 
         Screen.SetResolution(Screen.width/2, Screen.height/2, true);
     }
 }
