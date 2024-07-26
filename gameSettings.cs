@@ -9,5 +9,6 @@ public class gameSettings : MonoBehaviour
     {
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 60;  
+        Screen.SetResolution(Screen.width/2, Screen.height/2, true);
     }
 }
