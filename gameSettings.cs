@@ -18,3 +18,4 @@ public class gameSettings : MonoBehaviour
 //dont use normal maps on terrains in mobile projects.
 //enable Playersettings->Other Settings->Dynamic batching
 //disable Playersettings->resolution and presentation->Render outside safe area
+//disable Playersettings->resolution and presentation->Optimize frame pacing
