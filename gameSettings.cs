@@ -14,3 +14,7 @@ public class gameSettings : MonoBehaviour
         Screen.SetResolution(Screen.width/2, Screen.height/2, true);
     }
 }
+
+//dont use normal maps on terrains in mobile projects.
+//enable Playersettings->Other Settings->Dynamic batching
+//disable Playersettings->resolution and presentation->Render outside safe area
